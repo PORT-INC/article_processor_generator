@@ -1,0 +1,11 @@
+<div class="pa-caseStudyBox">
+  <div class="pa-caseStudyBox__header">
+    <i class="pa-caseStudyBox__icon"></i>
+    <% if @title %>
+      <h3 class="pa-caseStudyBox__heading"><%= @title %></h3>
+    <% end %>
+  </div>
+  <div class="pa-caseStudyBox__content">
+    <%= @value %>
+  </div>
+</div>

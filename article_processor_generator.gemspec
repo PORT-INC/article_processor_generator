@@ -7,11 +7,11 @@ require "article_processor_generator/version"
 Gem::Specification.new do |s|
   s.name        = "article_processor_generator"
   s.version     = ArticleProcessorGenerator::VERSION
-  s.authors     = ["ryotaro uchigane"]
-  s.email       = ["ryotaro.uchigane@theport.jp"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ArticleProcessorGenerator."
-  s.description = "TODO: Description of ArticleProcessorGenerator."
+  s.authors     = ["port developers"]
+  s.email       = ["development@theport.jp"]
+  s.homepage    = "https://github.com/PORT-INC/article_processor_generator"
+  s.summary     = "article_processor_generator"
+  s.description = "article_processor_generator"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     article_processor_generator (0.1.0)
-      rails (~> 5.0.0)
+      rails (~> 5.x.x)
 
 GEM
   remote: https://rubygems.org/
